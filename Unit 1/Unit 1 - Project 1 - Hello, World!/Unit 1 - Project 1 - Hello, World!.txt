@@ -1,0 +1,6 @@
+Create a "Hello, World!" program.
+This is the very first project that all programmers do when learning a new language.
+
+The Program needs to do the following:
+    - Display "Hello, World!"
+    - Have comments that describes what the program is supposed to do.

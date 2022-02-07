@@ -1,0 +1,33 @@
+
+
+______________________________________________
+
+Challenge
+
+_____________________________________
+
+Your challenge is to create a Mad Libs program: Mad libs asks the user for a number of different, random words from various categories (nouns, verbs, adjectives, etc.) and then plugs those random words into a story.
+
+______________________________________________
+
+Requirements
+
+_____________________________________
+
+The Program needs to do the following:
+
+ - Greet the user ("Hello!")
+
+
+
+    - Ask for the user name
+
+    - Responds with a pre-made sentence using the user's name ("Hello ____")
+
+    - Gives instructions on what the program does ("This is a Mad Libs program. I will ask you....")
+
+    - Ask for at least 8 words from the user ("Please type in a color", "Type in a noun")
+
+    - Generates a paragraph with the inputted data - paragraph should be easy to read
+
+
