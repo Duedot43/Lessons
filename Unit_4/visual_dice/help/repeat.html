@@ -1,0 +1,15 @@
+How do i repeat a section of code until a condition is met?<br>
+you can use a while loop.<br>
+A while loop is where it repeats a section of code until a condition is met.<br>
+Code example:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#set the game variable<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;game = 1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#setup the while loop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while game == 1:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# == is just basicly =   != is does not =<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#get the user input and put it in the input variable<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input = input("Play again?\n(1) Yes\n(2) No\n")<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if input == 1:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;continue<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;elif input == 2:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;game = 0<br>
